@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B26043E1601949500A20197 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B26043D1601949500A20197 /* CoreText.framework */; };
+		5B260446160194B000A20197 /* YLFloatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B260443160194B000A20197 /* YLFloatTextView.m */; };
+		5B260447160194B000A20197 /* YLStatusEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B260445160194B000A20197 /* YLStatusEditor.m */; };
+		5B2ED71E1601944600741418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ED71D1601944600741418 /* UIKit.framework */; };
+		5B2ED7201601944600741418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ED71F1601944600741418 /* Foundation.framework */; };
+		5B2ED7221601944600741418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2ED7211601944600741418 /* CoreGraphics.framework */; };
+		5B2ED7281601944600741418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ED7261601944600741418 /* InfoPlist.strings */; };
+		5B2ED72A1601944600741418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED7291601944600741418 /* main.m */; };
+		5B2ED72E1601944600741418 /* YLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED72D1601944600741418 /* YLAppDelegate.m */; };
+		5B2ED7311601944600741418 /* YLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2ED7301601944600741418 /* YLViewController.m */; };
+		5B2ED7341601944600741418 /* YLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2ED7321601944600741418 /* YLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B26043D1601949500A20197 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		5B260442160194B000A20197 /* YLFloatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLFloatTextView.h; sourceTree = "<group>"; };
+		5B260443160194B000A20197 /* YLFloatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLFloatTextView.m; sourceTree = "<group>"; };
+		5B260444160194B000A20197 /* YLStatusEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLStatusEditor.h; sourceTree = "<group>"; };
+		5B260445160194B000A20197 /* YLStatusEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLStatusEditor.m; sourceTree = "<group>"; };
+		5B2ED7191601944600741418 /* YLStatusEditorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLStatusEditorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2ED71D1601944600741418 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B2ED71F1601944600741418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B2ED7211601944600741418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B2ED7251601944600741418 /* YLStatusEditorTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YLStatusEditorTest-Info.plist"; sourceTree = "<group>"; };
+		5B2ED7271601944600741418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B2ED7291601944600741418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B2ED72B1601944600741418 /* YLStatusEditorTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YLStatusEditorTest-Prefix.pch"; sourceTree = "<group>"; };
+		5B2ED72C1601944600741418 /* YLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLAppDelegate.h; sourceTree = "<group>"; };
+		5B2ED72D1601944600741418 /* YLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAppDelegate.m; sourceTree = "<group>"; };
+		5B2ED72F1601944600741418 /* YLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLViewController.h; sourceTree = "<group>"; };
+		5B2ED7301601944600741418 /* YLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLViewController.m; sourceTree = "<group>"; };
+		5B2ED7331601944600741418 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2ED7161601944600741418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B26043E1601949500A20197 /* CoreText.framework in Frameworks */,
+				5B2ED71E1601944600741418 /* UIKit.framework in Frameworks */,
+				5B2ED7201601944600741418 /* Foundation.framework in Frameworks */,
+				5B2ED7221601944600741418 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2ED70E1601944600741418 = {
+			isa = PBXGroup;
+			children = (
+				5B26043D1601949500A20197 /* CoreText.framework */,
+				5B2ED7231601944600741418 /* YLStatusEditorTest */,
+				5B2ED71C1601944600741418 /* Frameworks */,
+				5B2ED71A1601944600741418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2ED71A1601944600741418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED7191601944600741418 /* YLStatusEditorTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2ED71C1601944600741418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED71D1601944600741418 /* UIKit.framework */,
+				5B2ED71F1601944600741418 /* Foundation.framework */,
+				5B2ED7211601944600741418 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B2ED7231601944600741418 /* YLStatusEditorTest */ = {
+			isa = PBXGroup;
+			children = (
+				5B260442160194B000A20197 /* YLFloatTextView.h */,
+				5B260443160194B000A20197 /* YLFloatTextView.m */,
+				5B260444160194B000A20197 /* YLStatusEditor.h */,
+				5B260445160194B000A20197 /* YLStatusEditor.m */,
+				5B2ED72C1601944600741418 /* YLAppDelegate.h */,
+				5B2ED72D1601944600741418 /* YLAppDelegate.m */,
+				5B2ED72F1601944600741418 /* YLViewController.h */,
+				5B2ED7301601944600741418 /* YLViewController.m */,
+				5B2ED7321601944600741418 /* YLViewController.xib */,
+				5B2ED7241601944600741418 /* Supporting Files */,
+			);
+			path = YLStatusEditorTest;
+			sourceTree = "<group>";
+		};
+		5B2ED7241601944600741418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B2ED7251601944600741418 /* YLStatusEditorTest-Info.plist */,
+				5B2ED7261601944600741418 /* InfoPlist.strings */,
+				5B2ED7291601944600741418 /* main.m */,
+				5B2ED72B1601944600741418 /* YLStatusEditorTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2ED7181601944600741418 /* YLStatusEditorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2ED7371601944600741418 /* Build configuration list for PBXNativeTarget "YLStatusEditorTest" */;
+			buildPhases = (
+				5B2ED7151601944600741418 /* Sources */,
+				5B2ED7161601944600741418 /* Frameworks */,
+				5B2ED7171601944600741418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLStatusEditorTest;
+			productName = YLStatusEditorTest;
+			productReference = 5B2ED7191601944600741418 /* YLStatusEditorTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2ED7101601944600741418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = lipq;
+			};
+			buildConfigurationList = 5B2ED7131601944600741418 /* Build configuration list for PBXProject "YLStatusEditorTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B2ED70E1601944600741418;
+			productRefGroup = 5B2ED71A1601944600741418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2ED7181601944600741418 /* YLStatusEditorTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2ED7171601944600741418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2ED7281601944600741418 /* InfoPlist.strings in Resources */,
+				5B2ED7341601944600741418 /* YLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2ED7151601944600741418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2ED72A1601944600741418 /* main.m in Sources */,
+				5B2ED72E1601944600741418 /* YLAppDelegate.m in Sources */,
+				5B2ED7311601944600741418 /* YLViewController.m in Sources */,
+				5B260446160194B000A20197 /* YLFloatTextView.m in Sources */,
+				5B260447160194B000A20197 /* YLStatusEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B2ED7261601944600741418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2ED7271601944600741418 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B2ED7321601944600741418 /* YLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2ED7331601944600741418 /* en */,
+			);
+			name = YLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2ED7351601944600741418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B2ED7361601944600741418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B2ED7381601944600741418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLStatusEditorTest/YLStatusEditorTest-Prefix.pch";
+				INFOPLIST_FILE = "YLStatusEditorTest/YLStatusEditorTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B2ED7391601944600741418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YLStatusEditorTest/YLStatusEditorTest-Prefix.pch";
+				INFOPLIST_FILE = "YLStatusEditorTest/YLStatusEditorTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2ED7131601944600741418 /* Build configuration list for PBXProject "YLStatusEditorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2ED7351601944600741418 /* Debug */,
+				5B2ED7361601944600741418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2ED7371601944600741418 /* Build configuration list for PBXNativeTarget "YLStatusEditorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2ED7381601944600741418 /* Debug */,
+				5B2ED7391601944600741418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2ED7101601944600741418 /* Project object */;
+}
